@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-size: cover;
+}
+.container{
+    position: absolute;
+    display: flex;
+    height: 99%;
+    width: 99%;
+    margin: 1px;
+  
+                       font-size: 16px;
+                       color: rgb(255, 255, 255);
+                       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 768px) {
+    .container{
+      font-size: 8px;
+    }}     
+video{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 40%;
+    left: 40%;
+    top: 20%;
+    
+    
+}
+.voltar{
+    text-align: center;
+    color:black;
+    position: absolute;
+    background-color: cornsilk;
+   top: 5%;
+   left: 0%;
+    height: 6%;
+    width: 5%;
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+    
+    border: 1px;
+
+}
+
+.voltar:hover{
+    background-color: #f602f6;
+    color: aliceblue;
+}
+
+#botão{
+    text-align: center;
+    color:black;
+    position: absolute;
+    background-color: cornsilk;
+   top: 5%;
+   left: 48%;
+    height: 6%;
+    width: 5%;
+    border-radius: 20px;
+    transition: 1s;
+    cursor: pointer;
+    
+    border: 1px;
+
+}
+a{
+    text-decoration: none;
+}
+#botão:hover{
+    background-color: #f602f6;
+    color: aliceblue;
+}
+.texto{
+    position: absolute;
+    width: 40%;
+height: 30%;
+left: 25%;
+top: 70%;
+text-align: center;
+background-color: rgb(232, 137, 4);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 100%;
+color: #000000;
+}
+
+footer{
+    position: absolute;
+    left: 0%;
+    width: 5%;
+    bottom: 10%;
+    
+    
+    
+}
+footer img{
+    position: relative;
+   
+    left: 3%;
+    height: 70%;
+    width: 50%;
+
+
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left:0%;
+      width: 10%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }}

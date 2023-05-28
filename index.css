@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0F1812;
+    height: 100%;
+    width: 100%;
+
+}
+a{
+    text-decoration: none;
+}
+
+.container-fluid{
+    position: absolute;
+    display: flex;
+    height: 99%;
+    width: 99%;
+    margin: 1px;
+  
+                       font-size: 100%;
+                       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+/* Media Query para tela menor */
+@media (max-width: 768px) {
+    .container-fluid{
+      font-size: 10px;
+    }}     
+#menu{
+   
+    padding: 5%;
+    border-radius: 10%;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+.barra{
+    position: absolute;
+width: 90%;
+height: 10%;
+left: 4%;
+top: 2%;
+
+background:  rgb(36, 46, 36);
+border-radius: 40px;
+
+}
+.barra2{
+    
+position: absolute;
+width: 2%;
+height: 25%;
+right: 5%;
+top: 50%;
+
+background:  rgb(36, 46, 36);
+}
+#mic img{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 12%;
+    top: 20%;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#mic img:hover{
+    -webkit-transform: scale(1,5);
+    transform: scale(1,5);}
+
+
+
+.Davi{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    left: 10%;
+    top: 35%;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: rgb(77, 46, 9);
+    
+    
+    transition: 1s;
+    
+}
+.Davi:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+#leo img{position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 32%;
+    top: 20%;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#leo img:hover{
+    -webkit-transform: scale(1,5);
+    transform: scale(1,5);}
+.Edgard{
+    position: absolute;
+width: 10%;
+height: 5%;
+left: 30%;
+top: 35%;
+border-radius: 40px;
+text-align: center;
+color: #ffffff;
+background: rgb(77, 46, 9);
+
+
+transition: 1s;
+
+}
+.Edgard:hover {
+    background-color: aqua;
+  }
+.Dona img{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 52%;
+    top: 20%;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.Dona img:hover{
+    -webkit-transform: scale(1,5);
+    transform: scale(1,5);}
+.Gui{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    right: 40%;
+    top: 35%;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: rgb(77, 46, 9);
+    
+    
+    transition: 1s;
+}
+.Gui:hover{ background-color: aqua;
+
+
+}
+
+.rafa img{
+    position: absolute;
+    width: 5%;
+    height: 10%;
+    left: 72%;
+    top: 20%;
+    border-radius: 50%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.rafa img:hover{
+    -webkit-transform: scale(1,5);
+    transform: scale(1,5);
+}
+.Hamilton{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+  left: 70%;
+    top: 35%;
+    border-radius: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: rgb(77, 46, 9);
+    
+    
+    transition: 1s;
+}
+.Hamilton:hover{
+    background-color: aqua;
+}
+#esquerda img{
+
+    position: absolute;
+    width: 15%;
+    height: 22.5%;
+    left:3%;
+    top: 50%;
+    
+    background: rgb(77, 46, 9);
+    border-radius: 10px;
+
+}
+.Barra3{
+    
+position: absolute;
+width: 22px;
+height: 150px;
+left: 271.07px;
+top: 300px;
+background: rgb(36, 46, 36);
+}
+
+
+#ftsala img{
+    position: absolute;
+width: 23%;
+left: 67%;
+top: 45%;
+
+background: rgb(77, 46, 9);
+border-radius: 40px;
+}
+.texto{
+    position: absolute;
+    width: 40%;
+height: 30%;
+left: 25%;
+top: 50%;
+text-align: center;
+background-color: rgb(77, 46, 9);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 100%;
+color: #ffffff;
+}
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 0%;
+      width: 600%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.barra4{
+    position: absolute;
+width: 100%;
+height: 5%;
+left:0%;
+bottom: 0%;
+
+background:  rgb(36, 46, 36);
+}
+
+
+
